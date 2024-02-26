@@ -12,7 +12,7 @@ public class _03_ContainsEmployee {
         em.getTransaction().begin();
 
         List<String> resultList = em.createQuery("SELECT e.firstName FROM Employee e" +
-                " WHERE e.salary>50000" , String.class)
+                        " WHERE e.salary>50000", String.class)
                 .getResultList();
 
 
@@ -20,5 +20,6 @@ public class _03_ContainsEmployee {
             System.out.println(result);
         }
         em.getTransaction().commit();
+        em.close();
     }
 }

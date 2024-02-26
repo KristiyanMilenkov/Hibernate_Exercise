@@ -26,5 +26,6 @@ public class _02_ChangeCasing {
         }
 
         em.getTransaction().commit();
+        em.close();
     }
 }

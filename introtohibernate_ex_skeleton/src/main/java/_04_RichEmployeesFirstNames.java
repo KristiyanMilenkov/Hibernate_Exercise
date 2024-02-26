@@ -23,5 +23,6 @@ public class _04_RichEmployeesFirstNames {
         }
 
         em.getTransaction().commit();
+        em.close();
     }
 }
