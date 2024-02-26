@@ -1,5 +1,8 @@
-Connect to your database and create database whit the name soft_uni.
+Connect to your database and create database with the name soft_uni.
+
 Then insert the following values:
+
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
